@@ -11,7 +11,7 @@ float ADCdata[1500];
 
 int main(void)
 {
-   float freq_scale = 0.1; // when we use AnalogIn, it should be (input freq/100)
+   float freq_scale = 0.25; // when we use AnalogIn, it should be (input freq/100)
    float wavelength_scale = 1 / freq_scale;
    float up_len = 1.0 / 6.0;
    float down_len = 1.0 / 4.0;
@@ -42,10 +42,11 @@ int main(void)
 
       if(idx >= sample && !flag){
           for(int i=0; i<sample; i++){
+            //   printf("idx = %d", i);
               printf("%f\r\n", ADCdata[i]);
           }
           flag = 1;
-          ThisThread::sleep_for(10ms); 
+        //   ThisThread::sleep_for(10ms); 
       }
    }
 }
