@@ -321,4 +321,7 @@ BUILD/B_L4S5I_IOT01A/GCC_ARM/main.o: main.cpp \
  /home/ee2405/ee2405/mbed-os-build/platform/include/platform/mbed_mpu_mgmt.h \
  /home/ee2405/ee2405/mbed-os-build/hal/include/hal/mpu_api.h \
  /home/ee2405/ee2405/mbed-os-build/platform/include/platform/ScopedRamExecutionLock.h \
- /home/ee2405/ee2405/mbed-os-build/platform/include/platform/mbed_stats.h
+ /home/ee2405/ee2405/mbed-os-build/platform/include/platform/mbed_stats.h \
+ 4dgl-ulcd-se/uLCD_4DGL.h \
+ /home/ee2405/ee2405/mbed-os-build/platform/include/platform/Stream.h \
+ /home/ee2405/ee2405/mbed-os-build/platform/include/platform/FileLike.h
